@@ -14,12 +14,12 @@ public class Fibonachi {
     public static void fibonachiNumber(int number) {
         int x = 0;
         int y = 1;
-        int k = 0;
-        for (int i = 0; k < number; i++) {
-            k = x;
+        int temp = 0;
+        for (int i = 0; temp < number; i++) {
+            temp = x;
             x = y + x;
-            y = k;
-            System.out.println(k);
+            y = temp;
+            System.out.println(y);
         }
     }
 }
