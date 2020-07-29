@@ -11,6 +11,5 @@ public class TestPoint {
 
         System.out.println(rectangle.getArea());
         System.out.println(rectangle.getDiagonal());
-
     }
 }
