@@ -16,7 +16,7 @@ public class Palindrome {
         return new StringBuffer(stringPalindrome).reverse().toString();
     }
 
-    public boolean equalsPalindrome() {
+    public boolean isEqualsPalindrome() {
         return reversPalindrome().equalsIgnoreCase(stringPalindrome);
     }
 
