@@ -6,7 +6,7 @@ package com.lesson5.task1;
  */
 public class Palindrome {
 
-    private final String stringPalindrome;
+    private String stringPalindrome;
 
     public Palindrome(String stringPalindrome) {
         this.stringPalindrome = stringPalindrome;
@@ -24,4 +24,7 @@ public class Palindrome {
         return stringPalindrome;
     }
 
+    public void setStringPalindrome(String stringPalindrome) {
+        this.stringPalindrome = stringPalindrome;
+    }
 }

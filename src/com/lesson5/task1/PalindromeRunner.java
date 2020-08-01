@@ -6,5 +6,9 @@ public class PalindromeRunner {
 
         System.out.println(stringTest.getStringPalindrome());
         System.out.println(stringTest.equalsPalindrome());
+
+        stringTest.setStringPalindrome("123");
+        System.out.println(stringTest.getStringPalindrome());
+        System.out.println(stringTest.equalsPalindrome());
     }
 }
